@@ -18,8 +18,8 @@ app.use(bodyparser.urlencoded({
 const db = mysql.createConnection({
     host: "localhost",
     user: "root",
-    password: "",
-    database: "test"
+    password: "Bujumbura1#",
+    database: "csvimport"
 })
  
 db.connect(function (err) {
